@@ -21,3 +21,28 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Docker
+.dockerignore
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+
+# Test
+/test-*.html
+/test-*.js
+
+# Build artifacts
+dist/
+*.tgz
+
+# Local configuration
+.env
+.env.*
+!.env.example

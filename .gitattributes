@@ -1,0 +1,42 @@
+# Atributos do Git para o projeto
+
+# Arquivos de texto devem usar LF (Unix line endings)
+* text=auto eol=lf
+
+# Arquivos binários
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.svg binary
+*.pdf binary
+*.zip binary
+*.gz binary
+*.bz2 binary
+*.tar binary
+
+# Linguagens específicas
+*.js text
+*.jsx text
+*.ts text
+*.tsx text
+*.json text
+*.md text
+*.yml text
+*.yaml text
+*.xml text
+*.html text
+*.css text
+*.scss text
+*.sh text
+Dockerfile text
+.gitignore text
+.editorconfig text
+*.dockerignore text
+*.gitattributes text
+
+# Arquivos de licença
+LICENSE text
+LICENSE.md text
+LICENSE.txt text
